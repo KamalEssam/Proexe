@@ -4,7 +4,7 @@
 namespace App\Http\Interfaces;
 
 
-interface MovieInterface
+interface UserInterface
 {
 
     public function login();
@@ -16,10 +16,5 @@ interface MovieInterface
     public function createUser($request);
     public function logout( );
     public function getAuthUserData();
-
-
-    ///MOVIE
-
-
 
 }

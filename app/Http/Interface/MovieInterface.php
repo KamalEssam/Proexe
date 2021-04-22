@@ -13,6 +13,4 @@ interface MovieInterface
 
     public function array_flatten($array);
     public function returnValues();
-
-
 }
